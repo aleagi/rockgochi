@@ -1,0 +1,74 @@
+body {
+    background: rgb(30,87,153);
+    background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(77,152,214,1) 50%, rgba(20,130,24,1) 67%, rgba(24,91,14,1) 95%, rgba(94,82,50,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(77,152,214,1) 50%,rgba(20,130,24,1) 67%,rgba(24,91,14,1) 95%,rgba(94,82,50,1) 100%);
+    background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(77,152,214,1) 50%,rgba(20,130,24,1) 67%,rgba(24,91,14,1) 95%,rgba(94,82,50,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#5e5232',GradientType=0 );
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Press Start 2P', cursive;
+}
+
+#rg-wrapper-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.5);
+}
+
+#rg-wrapper {
+    width: 48vw;
+    height: 48vh;
+
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 2px 3px rgba(255, 255, 255, 0.1);
+
+    padding: 1%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#rg-infos {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    padding: 0.5em;
+}
+
+/* Life */
+.rg-life {
+    overflow: hidden;
+}
+
+.rg-life h3 {
+    float: left;
+    color: #ccc;
+    font-weight: 300;
+    font-size: 0.8em;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.rg-life ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.rg-life ul li {
+    display: inline-block;
+    background: url(../images/rg-l-f.gif) 50% 50% no-repeat;
+    background-size: 16px;
+    padding: 10px;
+    margin: 0 -0.6em;
+}
+
+.rg-life ul li:first-of-type {
+    margin-left: 0px;
+}
